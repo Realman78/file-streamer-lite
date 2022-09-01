@@ -1,6 +1,6 @@
 {
   "name": "streamer-express-lite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An npm package used for streaming files to user (from local directory or URL on the web).",
   "main": "index.js",
   "scripts": {
