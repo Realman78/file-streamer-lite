@@ -5,6 +5,9 @@ An npm package used for streaming files from a remote URL to your client.
 
 Example usages: Video streaming, audio streaming.
 
+## Install
+
+    npm install streamer-express-lite
 
 ## Demo
 
