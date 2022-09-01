@@ -1,5 +1,5 @@
 
-# file-streamer-lite
+# streamer-express-lite
 
 An npm package used for streaming files from a remote URL to your client.
 
