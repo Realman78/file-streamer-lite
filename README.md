@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> da3791c92c7ba36006bca1f41907e2cdcf9f97ca
 # streamer-express-lite
 
 An npm package used for streaming files from a remote URL to your client.
@@ -6,6 +10,11 @@ Example usages: Video streaming, audio streaming (YouTube).
 
 ## Install
 
+<<<<<<< HEAD
+=======
+## Install
+
+>>>>>>> da3791c92c7ba36006bca1f41907e2cdcf9f97ca
     npm install streamer-express-lite
 
 ## Demo
