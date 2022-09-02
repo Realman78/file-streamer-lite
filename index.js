@@ -1,5 +1,6 @@
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
 const fs = require("fs")
+const mime = require("mime-types")
 /**
  * Stream from url (or file path) to res.
  * @param req The Express request object (optional if working with file path).
@@ -22,7 +23,7 @@ const stream = async (req, urlFromSource, res) => {
                 "Content-Range": `bytes ${start}-${end}/${videoSize}`,
                 "Accept-Ranges": "bytes",
                 "Content-Length": contentLength,
-                "Content-Type": "video/mp4"
+                "Content-Type": mime.lookup(urlFromSource.replace(/^.*[\\\/]/, ''))
             }
             res.writeHead(206, headers);
     
