@@ -1,6 +1,6 @@
 # streamer-express-lite
 
-An npm package used for streaming files from a remote URL to your client.
+An npm package used for streaming files from a remote URL (or a file path) to your client.
 
 Example usages: Video streaming, audio streaming (YouTube).
 
